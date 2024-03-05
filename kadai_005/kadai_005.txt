@@ -1,0 +1,7 @@
+top_line = 10
+under_line = 20
+hight_line = 5
+
+area = (top_line + under_line) * hight_line / 2
+
+print(str(area) + "cm")
