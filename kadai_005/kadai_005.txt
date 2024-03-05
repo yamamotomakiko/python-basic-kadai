@@ -1,0 +1,7 @@
+top_line = 10
+under_line = 20
+hight_line = 5
+
+print(str((top_line + under_line)*hight_line/2) + "cm")
+
+#公式：台形の面積 =（上辺＋下辺）× 高さ ÷ 2
