@@ -1,6 +1,7 @@
 def add_two_arguments(price, tax=0.1):
     total = price * (1 + tax)
+    return total
 
-    print(f"{total}円")
-
-add_two_arguments(1000,tax=0.1)
+price = 1000
+total = add_two_arguments(price, tax=0.1)
+print("消費税込みの合計金額:", total)
